@@ -56,6 +56,7 @@ form button:hover {
 }
 .container h1 {
     text-align: center;
+    color: rgb(11, 136, 158);
 }
 form label {
     margin-top: 10px;
