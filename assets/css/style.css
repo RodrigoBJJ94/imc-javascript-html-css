@@ -51,7 +51,7 @@ form button:hover {
 }
 .container p {
     font-size: 16px;
-    margin: 2px;
+    margin: 1.5px;
     text-align: center;
 }
 .container h1 {
@@ -68,4 +68,9 @@ form label {
 .bad {
     background: rgb(247, 120, 120);
     font-weight: bolder;
+}
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
 }
