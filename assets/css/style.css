@@ -69,8 +69,8 @@ form label {
     background: rgb(247, 120, 120);
     font-weight: bolder;
 }
-footer {
-    margin: -35px;
+footer p {
+    margin-top: -35px;
     text-align: center;
     color: white;
     font-style: italic;
