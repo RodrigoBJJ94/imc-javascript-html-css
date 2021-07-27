@@ -24,7 +24,7 @@ form.addEventListener('submit', function (event) {
 });
 
 function getIndiceImc(imc) {
-    const indice = ['Abaixo do peso', 'Peso normal', 'Sobrepeso', 'Obesidade', 'Obesidade severa', 'Obesidade mórbida'];
+    const indice = ['Abaixo do peso'.fontcolor('red'), 'Peso normal', 'Sobrepeso'.fontcolor('red'), 'Obesidade'.fontcolor('red') , 'Obesidade severa'.fontcolor('red'), 'Obesidade mórbida'.fontcolor('red')];
     if (imc >= 39.9) {
         return indice[5];
     }

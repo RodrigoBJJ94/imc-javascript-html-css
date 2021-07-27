@@ -21,7 +21,7 @@ body{
     margin: 50px auto;
     background: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 form input, form label, form button {
     display: block;
@@ -50,7 +50,7 @@ form button:hover {
     background: var(--primary-color-darker);
 }
 .container p {
-    font-size: 16px;
+    font-size: 20px;
     margin: 1.5px;
     text-align: center;
 }
@@ -62,7 +62,8 @@ form label {
     margin-top: 10px;
 }
 .paragrafo-resultado, .bad {
-    background: rgb(102, 253, 190);
+    color: white;
+    background: var(--primary-color-darker);
     padding: 10px 20px;
 }
 .bad {
@@ -70,8 +71,16 @@ form label {
     font-weight: bolder;
 }
 footer p {
-    margin-top: -35px;
+    padding-top: 210px;
     text-align: center;
     color: white;
     font-style: italic;
+}
+@media (max-width: 800px) {
+    .container {
+        max-width: 360px;
+    }
+    .container p {
+        font-size: 16px;
+    }
 }
